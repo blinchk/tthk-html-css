@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Leht</title>
+    </head>
+    <body>
+        <main>
+            <a href="with-css.html">Back to CSS</a>
+
+            <h1>See on pealkiri</h1>
+            <h2>See on alapeakiri</h2>
+            <p>See on tavaline tekstilõik</p>
+            <!-- Kommentaar -->
+
+            <cite>Lenin: </cite>
+            <q>Õppida, õppida, õppida!</q>
+            
+            <h2>Erialad põhihariduse baasil</h2>
+            <ul>
+                <li>Arvutid ja arvutivõrgud</li>
+                <li>Ehitusviimistlus</li>
+                <li>Kokk</li>
+                <li>Majutusteenindus</li>
+                <li>Tisler</li>
+                <li>Ülehitus</li>
+            </ul>
+            
+            <h2>Erialad põhihariduse baasil</h2>
+            <ol reversed start="6" type="A">
+                <li>Arvutid ja arvutivõrgud</li>
+                <li>Ehitusviimistlus</li>
+                <li>Kokk</li>
+                <li>Majutusteenindus</li>
+                <li>Tisler</li>
+                <li>Ülehitus</li>
+            </ol>
+
+            <a href="https://www.tthk.ee/">TTHK veebileht</a>
+            <a href="https://www.tthk.ee/" target="_blank">TTHK veebileht uues aknas</a>
+            <a href="mailto:nikolas.laus@tthk.ee">Saada meili</a>
+
+            <p><strong>TEADAANNE!</strong> Teisipäeval 16.septembril muutusid hangete klassifitseerimisel
+                kasutatavad üleeuroopalised  <em>CPV koodid</em>.  Palume hankekeskkonna kasutajatel vaadata  
+              üle oma kasutajaprofiil. </p>
+
+            <p>Leiva hind pärast eurot!</p> <p><s>Soovitatav hind 1,22€</s> <strong>Tegelik hind 2.45€</strong></p>
+            <p>Täiendusnurga valem: <em>sin (90 - α) =cos α</em></p>
+
+            <img src="https://cataas.com/cat" alt="random cat" height="100">
+
+            <table border="1">
+                <caption>Monitorid</caption>
+                <thead>
+                    <tr>
+                        <th>Tootja</th>
+                        <th>Ekraani suurus</th>
+                        <th>Hind</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>LG</td>
+                        <td>22"</td>
+                        <td>123,35€</td>
+                    </tr> 
+                    <tr>
+                        <td>Samsung</td>
+                        <td>19"</td>
+                        <td>101,62€</td>
+                    </tr> 
+                    <tr>
+                        <td>NEC</td>
+                        <td>23"</td>
+                        <td>349,60€</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Vormid -->
+            <form action="#" method="post" autocomplete>
+                <label for="name">Nimi</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Parool</label>
+                <input type="password" name="password" id="password">
+                <label for="email">E-post</label>
+                <input type="email" name="email" id="email" size="30">
+            </form>
+            <form>
+                <input type="search" name="otsing" list="search_options">
+                <datalist id="search_options">
+                    <option value="Python in 1 Hour">
+                    <option value="CSS õpetused">
+                </datalist>
+
+                <input type="submit" value="Otsi">
+
+                <textarea rows="20" cols="50">Siia pikem tekst</textarea>
+            </form>
+            <form>
+                <label>Kuupäev ja kellaaeg:</label><input type="datetime"><br>
+                <label>Kuupäev: </label><input type="date"><br>
+                <label>Aasta ja kuu: </label><input type="month"><br>
+                <label>Aasta ja nädal: </label><input type="week"><br>
+                <label>Kellaeg: </label><input type="time"><br>
+                <label>Kohalik aeg: </label><input type="datetime-local">
+            </form>
+            <form>
+                <label>Vali number: </label>
+                <input type="number" value="1" min="1" max="5" step="0.5">
+            </form>
+            <form>
+                <select size="3" multiple>
+                    <optgroup label="Soojad toonid">
+                        <option value="roh">Roheline</option>
+                        <option value="sin">Sinine</option>
+                        <option value="vio">Violett</option>
+                    </optgroup>
+                    <optgroup label="Külmad toonid">
+                        <option value="kol">Kollane</option>
+                        <option value="ora">Oranž</option>
+                        <option value="pun">Punane</option>
+                    </optgroup>
+                </select>
+            </form>
+            <form>
+                <input type="checkbox" name="varv" value="pun">Punane<br>
+                <input type="checkbox" name="varv" value="sin">Sinine<br>
+                <input type="checkbox" name="varv" value="kol" checked="yes">Kollane<br>
+                <input type="checkbox" name="varv" value="lil">Lilla
+            </form>
+            <form>
+                <input type="radio" name="varv" value="pun">Punane<br>
+                <input type="radio" name="varv" value="sin">Sinine<br>
+                <input type="radio" name="varv" value="kol" checked="yes">Kollane<br>
+                <input type="radio" name="varv" value="lil">Lilla
+              </form>
+        </main>          
+    </body>
+</html>
